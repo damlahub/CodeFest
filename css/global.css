@@ -52,6 +52,20 @@
 a{
     text-decoration: none;
 }
+.green-section-title{
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--opacity-white);
+}
+/* HomePage */
+#homePage{
+    position: relative;
+    display: none;
+}
 /* HEADER */
 .global-header{
     width: 100%;

@@ -3,4 +3,6 @@
     --white: #fff;
     --primary: rgb(0, 255, 0);
     --opacity-black: rgba(0, 0, 0, 0.767);
+    --opacity-white: rgba(255, 255, 255, 0.907);
+
 }
