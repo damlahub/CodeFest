@@ -22,41 +22,44 @@
             </div>
         </section> -->
         <section id="homePage">
-            <!-- js eklenecek -->
             <header class="global-header">
-                <h1 class="neon-text">#CodeFest</h1>
+                <a href="#"><h1 class="header-title"> #CodeFest</h1> </a>
                 <p class="desc">Şimdi başvur, #Doğa ile #Kod'un eşsiz buluşmasına tanıklık et! 🌿💻</p>
-            </header>
-            <!-- <div class="navbar-icon">
-                <i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
-            </div> -->
+            </header> 
+
+            <!-- Global Navbar -->
             <nav class="global-navbar">
                 <div class="navbar-icon">
-                    <button onclick="toggleNavbar()">
-                        <i class="fa-solid fa-house fa-xl" style="color: #ffffff;"></i>
+                    <button title="menü" onclick="toggleNavbar()">
+                        <i class="fa-solid fa-bars" style="color: #ffffff;"></i><br>
                     </button>
                 </div>
+                <!-- Menü -->
                 <div class="menu navbar-active">
-                    <ul>
-                        <li><a href="#">Ana Sayfa</a></li>
-                        <li><a href="#">Program</a></li>
-                        <li><a href="#">Sponsorlar</a></li>
-                        <li><a href="#">Konaklama</a></li>
-                        <li><a href="#">Yemek ve İçecek</a></li>
-                        <li><a href="#">Ulaşım</a></li>
-                        <li><a href="#">İletişim</a></li>
-                        <li><a href="#">Sık Sorulan Sorular</a></li>
-                        <li><button type="button" class="standart-btn">Kayıt Ol!</button></li>
-                    </ul>
                 </div>
-
             </nav>
+            <!-- HeroPage -->
+            <section id="heroPage">
+                <div class="hero-text">
+                    <h1 class="neon-text">#CodeFest</h1>
+                    <p class="desc">Şimdi kayıt ol, #Doğa ile #Kod'un eşsiz buluşmasına tanıklık et! 🌿💻</p>
+                    <button type="button" class="standart-btn" onclick="introRegister()">Kayıt Ol!</button>
+                </div>
+                <div class="hero-img">
+                    <img src="assets/heropp.png" alt="hero">
+                </div>
+            </section>
+            <section id="heroPage" style="background-color: black;">
+
+            </section>
         </section>
     </section>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/bb9da9ae22.js" crossorigin="anonymous"></script>
     <script src="apps/locations.js"></script>
     <script src="apps/navbar.js"></script>
+    <script src="apps/navbar-settings.js"></script>
+    <script src="apps/scroll.js"></script>
 </body>
 
 </html>

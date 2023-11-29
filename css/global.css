@@ -49,20 +49,24 @@
     display: inline-block;
     animation: neon-flicker 1s infinite alternate;
 }
+a{
+    text-decoration: none;
+}
 /* HEADER */
 .global-header{
     width: 100%;
     background-color: var(--black);
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
     z-index: 9999;
 }
-.global-header .neon-text{
+.global-header .header-title{
     color: var(--primary);
-    font-size: 1.5em;
+    font-size:1.7em;
     font-weight: 600;
+    text-shadow:  0 0 10px var(--primary),0 0 15px var(--primary);
 }
 .global-header .desc{
     font-size: 1em;
@@ -86,6 +90,8 @@
     align-items: center;
     position: absolute;
     bottom: 0;
+    border-top: 1px solid var(--primary);
+    z-index: 9998;
 
 }
 .navbar-active{
@@ -97,10 +103,15 @@
     background-color: var(--black);
     border: none;
     position: absolute;
-    top:-35px;
+    top:-41px;
     right: 25px;
-    border-radius: 10%;
-    z-index: 9998;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    z-index: 9999;
+    border-top: 1px solid var(--primary);
+    border-left: 1px solid var(--primary);
+    border-right: 1px solid var(--primary);
+
 }
 
 .global-navbar ul{
