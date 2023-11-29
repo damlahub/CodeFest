@@ -1,0 +1,34 @@
+@keyframes neon-flicker {
+    from {
+        text-shadow: 0 0 50px var(--primary), 0 0 100px var(--primary), 0 0 150px var(--primary);
+    }
+    to {
+        text-shadow: 0 0 20px var(--primary), 0 0 70px var(--primary), 0 0 120px var(--primary);
+    }
+}
+/* 
+@keyframes move-horizontal {
+    to {
+        transform: translateX(2px);
+    }
+} */
+@keyframes navAnimationTop {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes navAnimationBottom {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
