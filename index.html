@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODEFEST</title>
+        <!-- Swiper -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="css/swiper.css">
 </head>
 
 <body>
@@ -96,15 +100,67 @@
                     </div>
                 </div>
             </section>
+            <section id="counter">
+                    <h1  class="green-section-title">#CodeFest</h1>
+                    <section class="counter-items">
+                        <article class="counter-item" id="days">
+                            <h1>137</h1>
+                            <h3>DAYS</h3>
+                        </article>
+                        <article class="counter-item" id="hours">
+                            <h1>19</h1>
+                            <h3>HOURS</h3>
+                        </article>
+                        <article class="counter-item" id="minutes">
+                            <h1>10</h1>
+                            <h3>MINUTES</h3>
+                        </article>
+                        <article class="counter-item" id="seconds">
+                            <h1>59</h1>
+                            <h3>SECONDS</h3>
+                        </article>
+                </section>
+            </section>
+            <section id="gallery">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/gallery.jpg" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/gallery1.jpg" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/gallery2.jpg" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/gallery3.jpg" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/gallery4.jpg" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="assets/gallery5.jpg" alt="">
+                          </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </section>
         </section>
     </section>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/bb9da9ae22.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="apps/swiper.js"></script>
+
     <script src="apps/intro.js"></script>
     <script src="apps/navbar.js"></script>
     <script src="apps/navbar-settings.js"></script>
     <script src="apps/scroll.js"></script>
     <script src="apps/sponsors.js"></script>
+    <script src="apps/counter.js"></script>
+    <!-- Swiper -->
+
 </body>
 
 </html>

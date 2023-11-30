@@ -59,11 +59,10 @@ a{
     font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
-    border-bottom: 1px solid var(--opacity-white);
+    /* border-bottom: 1px solid var(--opacity-white); */
 }
 /* HomePage */
 #homePage{
-    position: relative;
     display: none;
 }
 /* HEADER */

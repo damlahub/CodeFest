@@ -1,12 +1,10 @@
 const intro = document.querySelector("#intro");
 const homePage = document.querySelector("#homePage");
 
-const introInnerHeight = window.innerHeight;
+const introInnerWidth = window.innerWidth;
 const introSlide = () => {
-  intro.style.top = `-${introInnerHeight}px`;
-  setTimeout(() => {
+  intro.style.left = `-${introInnerWidth}px`;
     homePage.style.display="block";
-  }, 2100);
 }
 
 const introMainMenu = () => {

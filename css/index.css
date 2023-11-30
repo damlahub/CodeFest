@@ -13,7 +13,7 @@
     align-items: center;
     transition-duration: 2s;
     transition-timing-function: ease-in;
-    top: 0;
+    left: 0;
     z-index: 100000;
 }
 .desc{
@@ -59,7 +59,8 @@
 #sponsors{
     width: 100%;
     height: 70vh;
-    background-color: var(--primary);
+    background: rgb(0,255,0);
+    background: linear-gradient(100deg, rgba(0,255,0,1) 90%, rgba(0,0,0,1) 10%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,4 +132,46 @@
     text-align: center;
     transform: rotate(-180deg); 
     border-radius: 35px;
+}
+/* Coubnter */
+#counter{
+    width: 100%;
+    height: 55vh;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    padding: 50px 0;
+
+}
+#counter p{
+    width: 45%;
+    text-align: center;
+}
+.counter-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.counter-item{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--black);
+    padding: 20px;
+    border-radius: 35px;
+}
+.counter-item h1{
+    font-size: 90px;
+}
+.counter-item h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+#gallery{
+    width: 100%;
+    height: 70vh;
 }

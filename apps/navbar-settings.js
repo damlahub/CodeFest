@@ -12,14 +12,6 @@ const menuItems = [
         href: "#activity"
     },
     {
-        name: "Konaklama",
-        href: "#gallery"
-    },
-    {
-        name: "Yemek ve İçecek",
-        href: "#faq"
-    },
-    {
         name: "Ulaşım",
         href: "#location"
     },
