@@ -26,15 +26,29 @@ const menuItems = [
 ];
 
 const navContainer = document.querySelector('.menu');
+const footerContainer = document.querySelector('#footer-navbar'); 
+
 const navList = document.createElement('ul');
+const footerNavList = document.createElement('ul');
 
 menuItems.forEach(item => {
     const listItem = document.createElement('li');
+    const footerlistItem = document.createElement('li');
+
     const link = document.createElement('a');
+    const footerlink = document.createElement('a');
+
     link.href = item.href;
     link.textContent = item.name;
-    listItem.appendChild(link);
+    footerlink.href = item.href;
+    footerlink.textContent = item.name;
+
     navList.appendChild(listItem);
+    listItem.appendChild(link);
+
+    footerlistItem.appendChild(footerlink);
+    footerNavList.appendChild(footerlistItem);
+    footerContainer.appendChild(footerNavList);
 });
 
 // Kayıt Ol Butonu
@@ -43,6 +57,7 @@ const button = document.createElement('button');
 button.type = 'button';
 button.className = 'standart-btn';
 button.textContent = 'Kayıt Ol!';
+button.onclick= () => registerPage()
 registerButton.appendChild(button);
 navList.appendChild(registerButton);
 

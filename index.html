@@ -5,161 +5,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODEFEST</title>
-        <!-- Swiper -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/index.css">
-
     <link rel="stylesheet" href="css/swiper.css">
 </head>
 
 <body>
     <section class="container">
-        <section id="intro">
-            <h1 class="neon-text">#CodeFest</h1>
-            <p class="desc">Şimdi kayıt ol, #Doğa ile #Kod'un eşsiz buluşmasına tanıklık et! 🌿💻</p>
-            <div class="intro-buttons">
-                <button type="button" class="transparent-btn" onclick="introSlide()">ANA SAYFA</button>
-                <button type="button" class="standart-btn" onclick="introRegister()">Kayıt Ol!</button>
-            </div>
-        </section>
         <!-- HomePage -->
-        <section id="homePage">
-            <header class="global-header">
-                <a href="#"><h1 class="header-title"> #CodeFest</h1> </a>
-                <p class="desc">Şimdi başvur, #Doğa ile #Kod'un eşsiz buluşmasına tanıklık et! 🌿💻</p>
-            </header> 
-
-            <!-- Global Navbar -->
-            <nav class="global-navbar">
-                <div class="navbar-icon">
-                    <button title="menü" onclick="toggleNavbar()">
-                        <i class="fa-solid fa-bars" style="color: #ffffff;"></i><br>
-                    </button>
-                </div>
-                <!-- Menü -->
-                <div class="menu navbar-active">
-                </div>
-            </nav>
-            <!-- HeroPage -->
-            <section id="heroPage">
-                <div class="hero-text">
-                    <h1 class="neon-text">#CodeFest</h1>
-                    <p class="desc">Şimdi kayıt ol, #Doğa ile #Kod'un eşsiz buluşmasına tanıklık et! 🌿💻</p>
-                    <button type="button" class="standart-btn" onclick="introRegister()">Kayıt Ol!</button>
-                </div>
-                <div class="hero-img">
-                    <img src="assets/heropp.png" alt="hero">
-                </div>
-            </section>
-            <section id="sponsors">
-                <h1 class="green-section-title">Sponsorlar</h1>
-                <div class="sponsors-imgs">
-                </div>
-            </section>
-            <section id="program">
-                <h1 class="green-section-title">Program</h1>
-                <div class="program-cards">
-                    <div class="program-card">
-                        <h1>1. Gün</h1>
-                        <ul>
-                            <li><span class="green">09:00 - 10:00</span> Kamp alanında buluşma ve kayıt işlemleri.</li>
-                            <li><span class="green">10:00 - 12:00</span> Tanışma aktivitesi ve grup oluşturma. </li>
-                            <li><span class="green">12:00 - 13:30</span> Öğle yemeği. </li>
-                            <li><span class="green">13:30 - 15:30</span> Temel kamp becerileri eğitimi. </li>
-                            <li><span class="green">15:30 - 17:30</span> Serbest zaman / kamp alanında keşif. </li>
-                            <li><span class="green">17:30 - 19:00</span> Akşam yemeği. </li>
-                            <li><span class="green">19:00 - 21:00</span> Açık hava sineması ve ateş başında müzik. </li>
-                        </ul>
-                    </div>
-                    <div class="program-card">
-                        <h1>2. Gün</h1>
-                        <ul>
-                            <li><span class="green">08:00 - 10:00</span> Doğa yürüyüşü ve fotoğraf çekimi.</li>
-                            <li><span class="green">10:00 - 12:00</span> Doğadan ilham alarak mobil uygulama veya oyun geliştirme atölyesi.</li>
-                            <li><span class="green">12:00 - 13:30</span> Öğle yemeği. </li>
-                            <li><span class="green">13:30 - 15:30</span>  Proje geliştirme süreci. </li>
-                            <li><span class="green">15:30 - 17:30</span> Kreatif workshop. </li>
-                            <li><span class="green">17:30 - 19:00</span> Akşam yemeği. </li>
-                            <li><span class="green">19:00 - 21:00</span> Projelerin sunulması ve değerlendirme. </li>
-                        </ul>
-                    </div>
-                    <div class="program-card">
-                        <h1>3. Gün</h1>
-                        <ul>
-                            <li><span class="green">09:00 - 10:00</span> Grup çalışması ve doğa temalı proje tasarımı.</li>
-                            <li><span class="green">10:00 - 12:00</span> Projelerin uygulanması ve sunum hazırlıkları. </li>
-                            <li><span class="green">12:00 - 13:30</span> Öğle yemeği. </li>
-                            <li><span class="green">13:30 - 15:30</span>  Projelerin sonlandırılması ve hazırlıkların tamamlanması. </li>
-                            <li><span class="green">15:30 - 17:30</span> Projelerin sunulması ve ödül töreni. </li>
-                            <li><span class="green">17:30 - 19:00</span> Akşam yemeği. </li>
-                            <li><span class="green">19:00 - 21:00</span> Kamp ateşi etrafında vedalaşma ve etkinliğin kapanışı.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+        <header class="global-header">
+            <a href="#">
+                <h1 class="header-title"> #CodeFest</h1>
+            </a>
+            <p class="desc">Şimdi başvur, #Doğa ile #Kod'un eşsiz buluşmasına tanıklık et! 🌿💻</p>
+        </header>
+        <!-- Global Navbar -->
+        <nav class="global-navbar">
+            <div class="navbar-icon">
+                <button title="menü" onclick="toggleNavbar()">
+                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i><br>
+                </button>
+            </div>
+            <!-- Menü -->
+            <div class="menu">
+            </div>
+        </nav>
+        <!-- HeroPage -->
+        <section id="heroPage">
+            <div class="hero-text">
+                <h1 class="neon-text">#CodeFest</h1>
+                <p class="desc">Şimdi kayıt ol, #Doğa ile #Kod'un eşsiz buluşmasına tanıklık et!</p>
+                <button onclick="registerPage()" type="button" class="transparent-btn">Kayıt Ol</button>
+            </div>
             <section id="counter">
-                    <h1  class="green-section-title">#CodeFest</h1>
-                    <section class="counter-items">
-                        <article class="counter-item" id="days">
-                            <h1>137</h1>
-                            <h3>DAYS</h3>
-                        </article>
-                        <article class="counter-item" id="hours">
-                            <h1>19</h1>
-                            <h3>HOURS</h3>
-                        </article>
-                        <article class="counter-item" id="minutes">
-                            <h1>10</h1>
-                            <h3>MINUTES</h3>
-                        </article>
-                        <article class="counter-item" id="seconds">
-                            <h1>59</h1>
-                            <h3>SECONDS</h3>
-                        </article>
+                <section class="counter-items">
+                    <article class="counter-item" id="days">
+                        <h1>137</h1>
+                        <h3>GÜN</h3>
+                    </article>
+                    <article class="counter-item" id="hours">
+                        <h1>19</h1>
+                        <h3>SAAT</h3>
+                    </article>
+                    <article class="counter-item" id="minutes">
+                        <h1>10</h1>
+                        <h3>DAKİKA</h3>
+                    </article>
+                    <article class="counter-item" id="seconds">
+                        <h1>59</h1>
+                        <h3>SANİYE</h3>
+                    </article>
                 </section>
             </section>
-            <section id="gallery">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="assets/gallery.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/gallery1.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/gallery2.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/gallery3.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/gallery4.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide">
-                            <img src="assets/gallery5.jpg" alt="">
-                          </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-            </section>
         </section>
+
+        <section id="program">
+            <h1 class="green-section-title">Program</h1>
+            <div class="program-cards">
+                <div class="program-card">
+                    <h1>1. Gün</h1>
+                    <ul>
+                        <li><span class="green">09:00 - 10:00</span> Kamp alanında buluşma ve kayıt işlemleri.</li>
+                        <li><span class="green">10:00 - 12:00</span> Tanışma aktivitesi ve grup oluşturma. </li>
+                        <li><span class="green">12:00 - 13:30</span> Öğle yemeği. </li>
+                        <li><span class="green">13:30 - 15:30</span> Temel kamp becerileri eğitimi. </li>
+                        <li><span class="green">15:30 - 17:30</span> Serbest zaman / kamp alanında keşif. </li>
+                        <li><span class="green">17:30 - 19:00</span> Akşam yemeği. </li>
+                        <li><span class="green">19:00 - 21:00</span> Açık hava sineması ve ateş başında müzik. </li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h1>2. Gün</h1>
+                    <ul>
+                        <li><span class="green">08:00 - 10:00</span> Doğa yürüyüşü ve fotoğraf çekimi.</li>
+                        <li><span class="green">10:00 - 12:00</span> Doğadan ilham alarak mobil uygulama veya oyun
+                            geliştirme atölyesi.</li>
+                        <li><span class="green">12:00 - 13:30</span> Öğle yemeği. </li>
+                        <li><span class="green">13:30 - 15:30</span> Proje geliştirme süreci. </li>
+                        <li><span class="green">15:30 - 17:30</span> Kreatif workshop. </li>
+                        <li><span class="green">17:30 - 19:00</span> Akşam yemeği. </li>
+                        <li><span class="green">19:00 - 21:00</span> Projelerin sunulması ve değerlendirme. </li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h1>3. Gün</h1>
+                    <ul>
+                        <li><span class="green">09:00 - 10:00</span> Grup çalışması ve doğa temalı proje tasarımı.</li>
+                        <li><span class="green">10:00 - 12:00</span> Projelerin uygulanması ve sunum hazırlıkları. </li>
+                        <li><span class="green">12:00 - 13:30</span> Öğle yemeği. </li>
+                        <li><span class="green">13:30 - 15:30</span> Projelerin sonlandırılması ve hazırlıkların
+                            tamamlanması. </li>
+                        <li><span class="green">15:30 - 17:30</span> Projelerin sunulması ve ödül töreni. </li>
+                        <li><span class="green">17:30 - 19:00</span> Akşam yemeği. </li>
+                        <li><span class="green">19:00 - 21:00</span> Kamp ateşi etrafında vedalaşma ve etkinliğin
+                            kapanışı.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/gallery.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/gallery5.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/gallery1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/gallery2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/gallery3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/gallery4.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- Sponsors -->
+        <section id="sponsors">
+            <h1 class="green-section-title">Sponsorlar</h1>
+            <div class="sponsors-imgs">
+            </div>
+        </section>
+        <!-- Faq -->
+        <section id="faq">
+            <h1 class="green-section-title">Sık Sorulan Sorular</h1>
+            <div class="faq-content">
+            </div>
+            <button id="faq-more" class="transparent-btn">Daha Fazla</button>
+        </section>
+        <!-- Transportation -->
+        <section id="transportation">
+            <h1 class="green-section-title">ULAŞIM</h1>
+            <div class="transportation-info">
+                <div class="transportation-text">
+                    <p>Lorem ipsum dolor sit / amet </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, obcaecati. Optio, animi.</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14286.96586410308!2d29.58877531740184!3d41.168032842466836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409e326728811181%3A0x8c46d42b62837f50!2zxZ5pbGUsIMSwc3RhbmJ1bA!5e0!3m2!1str!2str!4v1701721683778!5m2!1str!2str"
+                    width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section id="contact-us">
+            <h1 class="green-section-title">BİZE ULAŞIN</h1>
+            <div class="contact-us-info">
+                <img src="assets/neon-green.gif" alt="">
+                <form id="contact-us-form">
+                    <input type="text" id="name" placeholder="İsim " name="name" required>
+                    <input type="email" id="email" name="email" placeholder="Mail" required>
+                    <textarea id="message" name="message" placeholder="Mesajınız..." rows="4" required></textarea>
+                    <button type="submit" class="transparent-btn">Gönder</button>
+                </form>
+                <div class="contact-us-socials">
+                    <span>codefest@example.com</span>
+                    <span>(XXX) XXX XX XX</span>
+                    <span><a href="#"><i class="fa-brands fa-instagram" style="color: var(--primary);"></i> Instagram</a></span>
+                    <span><a href="#"><i class="fa-brands fa-facebook" style="color: var(--primary);"></i> Facebook</a></span>
+                    <span><a href="#"><i class="fa-brands fa-x-twitter" style="color: var(--primary);"></i> X</a></span>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h1 class="footer-title">#CodeFest</h1>
+            <nav id="footer-navbar">
+                <h1>Menü</h1>
+            </nav>
+            <div class="contact-us-socials">
+                <h1 >Bize Ulaşın</h1>
+                <span>codefest@example.com</span>
+                <span>(XXX) XXX XX XX</span>
+                <span><a href="#"><i class="fa-brands fa-instagram" style="color: var(--primary);"></i> Instagram</a></span>
+                <span><a href="#"><i class="fa-brands fa-facebook" style="color: var(--primary);"></i> Facebook</a></span>
+                <span><a href="#"><i class="fa-brands fa-x-twitter" style="color: var(--primary);"></i> X</a></span>
+            </div>
+        </footer>
     </section>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/bb9da9ae22.js" crossorigin="anonymous"></script>
+    <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="apps/swiper.js"></script>
-
-    <script src="apps/intro.js"></script>
     <script src="apps/navbar.js"></script>
     <script src="apps/navbar-settings.js"></script>
     <script src="apps/scroll.js"></script>
     <script src="apps/sponsors.js"></script>
     <script src="apps/counter.js"></script>
-    <!-- Swiper -->
+    <script src="apps/faq.js"></script>
+    <script src="apps/register-processing.js"></script>
 
 </body>
 

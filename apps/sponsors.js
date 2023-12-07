@@ -4,11 +4,11 @@ const sponsors = [
  "assets/sponsors2.png",
  "assets/sponsors3.png",
  "assets/sponsors4.png",
- "assets/sponsors5.png",
+ "assets/sponsors9.png",
  "assets/sponsors6.png",
  "assets/sponsors7.png",
  "assets/sponsors8.png",
- "assets/sponsors9.png",
+ "assets/sponsors5.png"
 ];
 const sponsorsImages=document.querySelector(".sponsors-imgs");
 

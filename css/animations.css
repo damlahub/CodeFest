@@ -8,7 +8,14 @@
 }
 
 @keyframes move-horizontal {
-    to {
+    0%{
+        transform: translateX(5px);
+
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    100% {
         transform: translateX(5px);
     }
 }
@@ -41,6 +48,6 @@
 
   @keyframes rotateBoxShadow {
     to {
-      box-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary), 0 0 35px var(--primary);
+      box-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary);
     }
   }
