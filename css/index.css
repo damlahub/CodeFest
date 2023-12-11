@@ -45,6 +45,7 @@
 .sponsors-imgs img {
     width: 200px;
     margin: 0 20px;
+    user-select: none;
 }
 
 .sponsors-imgs {
