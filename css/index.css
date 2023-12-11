@@ -85,18 +85,19 @@
 
 .program-card {
     width: 28%;
-    height: 500px;
+    min-height: 450px;
     box-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary);
     padding: 20px;
     border-radius: 35px;
     animation: rotateBoxShadow 2s alternate infinite;
     display: flex;
     justify-content: space-between;
+    align-items: start;
 }
 
 .program-card ul li {
     list-style: none;
-    padding: 10px 0;
+    padding: 7px 0;
 }
 
 .program-card ul {
@@ -107,7 +108,7 @@
 }
 
 .program-card h1 {
-    width: 8%;
+    height: 100%;
     background-color: var(--primary);
     writing-mode: vertical-rl;
     white-space: nowrap;
@@ -116,16 +117,11 @@
     border-radius: 35px;
 }
 
-/* Coubnter */
+/* Counter */
 #counter {
     width: 60%;
     padding: 20px 0;
 }
-.counter-title{
-    font-size: 4em;
-    margin-top: 20px;
-}
-    
 .counter-items {
     width: 100%;
     display: flex;
@@ -228,7 +224,6 @@
 }
 #transportation{
     width: 100%;
-    height: 65vh;
     background-image: url(../assets/tente.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -238,6 +233,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 }
 .transportation-info{
     width: 90%;
@@ -245,6 +241,7 @@
     justify-content: space-evenly;
     align-items: center;
     color: var(--white);
+    margin-top: 25px;
 }
 .transportation-text{
     width: 30%;

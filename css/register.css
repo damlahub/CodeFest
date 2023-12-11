@@ -12,14 +12,6 @@ body {
     background: rgb(0, 255, 0);
     background: linear-gradient(100deg, rgba(0, 0, 0, 1) 50%, rgba(0, 255, 0, 1) 10%);
 }
-
-.register-title {
-    color: var(--primary);
-    font-size: 4em;
-    font-weight: 600;
-    text-shadow: 0 0 10px var(--primary), 0 0 15px var(--primary);
-}
-
 #register-form {
     width: 400px;
     height: 400px;

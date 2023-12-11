@@ -1,0 +1,304 @@
+@media (min-width: 1281px) {
+    .program-card {
+        max-height: 300px;
+
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .program-card {
+        width: 29%;
+        max-height: 600px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .neon-text {
+        font-size: 7em;
+    }
+
+    .desc {
+        font-size: 1em;
+    }
+
+    .program-cards {
+        flex-wrap: wrap;
+    }
+
+    .program-card {
+        width: 40%;
+        max-height: 600px;
+        margin: 20px;
+    }
+
+    #contact-us img {
+        width: 30%;
+        margin-top: 50px;
+    }
+
+    /* Register */
+    #register .neon-text {
+        font-size: 6em;
+    }
+
+    #register-submit {
+        border: 1px solid var(--black);
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .neon-text {
+        font-size: 7em;
+    }
+
+    .desc {
+        font-size: 1em;
+    }
+
+    .program-cards {
+        flex-wrap: wrap;
+    }
+
+    .program-card {
+        width: 40%;
+        max-height: 600px;
+        margin: 20px;
+    }
+
+    #contact-us img {
+        width: 30%;
+        margin-top: 50px;
+    }
+
+    /* Register */
+    #register .neon-text {
+        font-size: 6em;
+    }
+
+    #register-submit {
+        border: 1px solid var(--black);
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .neon-text {
+        font-size: 4em;
+    }
+
+    .desc {
+        font-size: .9em;
+    }
+
+    #counter {
+        padding: 0;
+    }
+
+    .counter-items {
+        flex-wrap: wrap;
+    }
+
+    .counter-item {
+        width: 45%;
+        padding: 5px;
+    }
+
+    .counter-item h1 {
+        font-size: 30px;
+
+    }
+
+    .counter-item h3 {
+        font-size: 20px;
+    }
+
+    .program-cards {
+        flex-wrap: wrap;
+    }
+
+    .program-card {
+        width: 90%;
+        max-height: 490px;
+        margin-bottom: 20px;
+    }
+
+    .sponsors-imgs img {
+        width: 100px;
+        margin: 0 20px;
+    }
+
+    .transportation-info {
+        flex-direction: column;
+    }
+
+    .transportation-text {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .transportation-info iframe {
+        width: 90%;
+    }
+
+    #contact-us img {
+        display: none;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .global-navbar ul li a {
+        font-size: 9px;
+    }
+
+    .global-navbar .standart-btn {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .global-header .header-title {
+        font-size: 1em;
+
+    }
+
+    .global-header .desc {
+        font-size: .6em;
+    }
+
+    /* Register */
+    #register .neon-text {
+        font-size: 2em;
+    }
+
+    #register-submit {
+        background-color: var(--black);
+    }
+
+    .register-info {
+        flex-direction: column;
+    }
+    .register-counter {
+        background-color: transparent;
+        width: auto;
+        height: auto;
+        border: none;
+        box-shadow: none;
+    font-size: 1em;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .neon-text {
+        font-size: 4em;
+    }
+
+    .desc {
+        font-size: .9em;
+    }
+
+    #counter {
+        padding: 0;
+    }
+
+    .counter-items {
+        flex-wrap: wrap;
+    }
+
+    .counter-item {
+        width: 45%;
+        padding: 5px;
+    }
+
+    .counter-item h1 {
+        font-size: 30px;
+
+    }
+
+    .counter-item h3 {
+        font-size: 20px;
+    }
+
+    .program-cards {
+        flex-wrap: wrap;
+    }
+
+    .program-card {
+        width: 90%;
+        max-height: 490px;
+        margin-bottom: 20px;
+    }
+
+    .sponsors-imgs img {
+        width: 100px;
+        margin: 0 20px;
+    }
+
+    .transportation-info {
+        flex-direction: column;
+    }
+
+    .transportation-text {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .transportation-info iframe {
+        width: 90%;
+    }
+
+    #contact-us img {
+        display: none;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .global-navbar ul li a {
+        font-size: 9px;
+    }
+
+    .global-navbar .standart-btn {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .global-header .header-title {
+        font-size: 1em;
+
+    }
+
+    .global-header .desc {
+        font-size: .6em;
+    }
+        /* Register */
+        #register .neon-text {
+            font-size: 2em;
+        }
+    
+        #register-submit {
+            background-color: var(--black);
+        }
+    
+        .register-info {
+            flex-direction: column;
+        }
+        .register-counter {
+            background-color: transparent;
+            width: auto;
+            height: auto;
+            border: none;
+            box-shadow: none;
+        font-size: 1em;
+        }
+}
