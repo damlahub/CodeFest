@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.green{
+    color: var(--primary);
+    border-left: 1px solid var(--primary);
+    padding-left: 5px;
+}
 /* Buttons */
 .standart-btn{
     width: 200px;
@@ -50,18 +55,13 @@
 a{
     text-decoration: none;
 }
-.green-section-title{
+.section-title{
     width: 100%;
     color: var(--white);
     text-align: center;
     font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
-    /* border-bottom: 1px solid var(--opacity-white); */
-}
-/* HomePage */
-#homePage{
-    display: none;
 }
 /* HEADER */
 .global-header{

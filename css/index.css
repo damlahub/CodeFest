@@ -57,13 +57,6 @@
 }
 
 /* Program */
-.green {
-    color: var(--primary);
-    font-weight: bold;
-    border-left: 1px solid var(--primary);
-    padding: 5px 10px;
-}
-
 #program {
     width: 100%;
     background-color: var(--black);
@@ -169,8 +162,6 @@
 .faq-content {
     margin: 30px auto;
     width: 70%;
-    /* max-height: 390px;
-    overflow: hidden; */
 }
 
 .faq-question {
@@ -213,9 +204,6 @@
     font-weight: bold;
     font-size: 22px;
 }
-/* .faq-content-more{
-    max-height: none;
-} */
 #faq-more{
     padding: 10px;
     background-color: transparent;
@@ -223,6 +211,7 @@
     cursor: pointer;
     color: var(--white);
 }
+/* transportation */
 #transportation{
     width: 100%;
     background-image: url(../assets/tente.jpg);
