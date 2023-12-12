@@ -5,19 +5,19 @@ const menuItems = [
     },
     {
         name: "Program",
-        href: "#accommodation"
+        href: "#program"
     },
     {
         name: "Sponsorlar",
-        href: "#activity"
+        href: "#sponsors"
     },
     {
         name: "Ulaşım",
-        href: "#location"
+        href: "#transportation"
     },
     {
         name: "İletişim",
-        href: "#faq"
+        href: "#contact-us"
     },
     {
         name: "Sık Sorulan Sorular",
